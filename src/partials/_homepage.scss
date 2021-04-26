@@ -4,12 +4,13 @@
       header {
         display: flex;
         flex-direction: column;
+        background-color: $bg-header;
 
         .top-menu {
-          background-color: $bg-top-header;
           font-size: $font-top-header;
           display: flex;
           justify-content: flex-end;
+          margin-right: 100px;
 
           ul {
             display: flex;
@@ -19,6 +20,7 @@
 
               i {
                 padding: 0 10px;
+                color: $top-header-icons;
               }
 
               a {
@@ -29,6 +31,32 @@
         }
 
         .bottom-menu {
+          font-size: $font-bottom-header;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .logo {
+              margin-right: 20px;
+          }
+
+          ul {
+            display: flex;
+
+            li {
+              padding: 10px 15px;
+
+              i {
+                padding: 0 5px;
+                color: $bottom-header-icons;
+                font-size: $font-bottom-header-icons;
+              }
+
+              a {
+                color: $color-bottom-header;
+              }
+            }
+          }
 
         }
       }
