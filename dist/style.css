@@ -49,6 +49,7 @@ div#home header .bottom-menu ul li i {
 div#home header .bottom-menu ul li a {
   color: white;
 }
+
 div#home main {
   /*debug*/
   /*background-color: yellowgreen;*/
@@ -112,6 +113,7 @@ div#home main .painting-container .box-top-imgs .box-3 {
   margin: 15px 10px;
   background-color: blue;
 }
+
 * {
   margin: 0;
   padding: 0;
