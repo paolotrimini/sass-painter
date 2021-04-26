@@ -1,0 +1,39 @@
+
+  div#home {
+
+      header {
+        display: flex;
+        /*flex-direction: column;*/
+
+        .top-menu {
+          background-color: $bg-top-header;
+          font-size: $font-top-header;
+
+          ul {
+            display: flex;
+            justify-content: flex-end;
+
+            li {
+              padding: 0 10px;
+
+              i {
+                padding: 0 10px;
+              }
+
+              a {
+                color: $color-top-header;
+              }
+            }
+          }
+        }
+      }
+
+      main {
+
+      }
+
+      footer {
+
+      }
+
+  }
