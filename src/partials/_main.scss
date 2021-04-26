@@ -1,97 +1,118 @@
 
-div#home {
+  div#home {
 
-  main {
-    /*debug*/
-    /*background-color: yellowgreen;*/
-
-    .jumbotron {
-      height: 300px;
-      padding: 30px 0;
-      background-repeat: no-repeat;
-      background-size: cover;
-      /*background-image: url(../../dist/img/bg-painter-home.jpg);*/
+    main {
       /*debug*/
-      background-color: yellowgreen;
+      /*background-color: yellowgreen;*/
 
-      .text-box {
-        margin-top: 50px;
-        margin-left: 100px;
+      .jumbotron {
+        height: 300px;
+        padding: 30px 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*background-image: url(../../dist/img/bg-painter-home.jpg);*/
+        /*debug*/
+        background-color: yellowgreen;
 
-        .box-button {
+        .text-box {
+          margin-top: 50px;
+          margin-left: 100px;
 
-          .btn-1 {
-            margin: 10px 0;
-            padding: 8px 15px;
-            color: $color-btn-1;
-            background-color: $bg-btn-1;
-            border: 1px solid black;
+          .box-title-1 {
+            margin-top: 15px;
+            margin-bottom: 25px;
           }
 
-          .btn-2 {
-            margin: 10px 0;
-            padding: 8px 15px;
-            color: $color-btn-2;
-            border: 1px solid black;
+          .box-subtitle {
+            color: $color-subtitle;
+            font-size: 14px;
+            font-style: italic;
+            margin-bottom: 15px;
+
+            h3 {
+              font-weight: bold;
+            }
+
+            p {
+              font-weight: 300;
+            }
+
+          }
+
+          .box-button {
+
+            .btn-1 {
+              margin: 10px 0;
+              padding: 8px 15px;
+              color: $color-btn-1;
+              background-color: $bg-btn-1;
+              border: 1px solid black;
+            }
+
+            .btn-2 {
+              margin: 10px 0;
+              padding: 8px 15px;
+              color: $color-btn-2;
+              border: 1px solid black;
+            }
+
           }
 
         }
 
-      }
 
+        .jumbo-img {
 
-      .jumbo-img {
+          img {
+            width: 220px;
+          }
+        }
 
-        img {
-          width: 220px;
+        h3 {
+          font-size: 14px;
+          font-weight: 300;
         }
       }
 
-      h3 {
-        font-size: 14px;
-        font-weight: 300;
-      }
-    }
+      .painting-container {
 
-    .painting-container {
+        margin: 30px 0;
+        text-align: center;
 
-      margin: 30px 0;
-      text-align: center;
+        .box-title-2 {
 
-      .box-title-2 {
-
-      }
-
-      .box-top-imgs {
-        display: flex;
-        justify-content: center;
-
-        .box-1 {
-          width: 250px;
-          height:270px;
-          margin: 15px 10px;
-          background-color: red;
         }
 
-        .box-2 {
-          width: 250px;
-          height:270px;
-          margin: 15px 10px;
-          background-color: green;
-        }
+        .box-top-imgs {
+          display: flex;
+          justify-content: center;
 
-        .box-3 {
-          width: 250px;
-          height:270px;
-          margin: 15px 10px;
-          background-color: blue;
-        }
+          .box-1 {
+            width: 250px;
+            height:270px;
+            margin: 15px 10px;
+            background-color: red;
+          }
 
+          .box-2 {
+            width: 250px;
+            height:270px;
+            margin: 15px 10px;
+            background-color: green;
+          }
+
+          .box-3 {
+            width: 250px;
+            height:270px;
+            margin: 15px 10px;
+            background-color: blue;
+          }
+
+
+        }
 
       }
 
     }
 
   }
-
-}
