@@ -3,18 +3,19 @@
 
       header {
         display: flex;
-        /*flex-direction: column;*/
+        flex-direction: column;
 
         .top-menu {
           background-color: $bg-top-header;
           font-size: $font-top-header;
+          display: flex;
+          justify-content: flex-end;
 
           ul {
             display: flex;
-            justify-content: flex-end;
 
             li {
-              padding: 0 10px;
+              padding: 10px 10px;
 
               i {
                 padding: 0 10px;
@@ -25,6 +26,10 @@
               }
             }
           }
+        }
+
+        .bottom-menu {
+
         }
       }
 
