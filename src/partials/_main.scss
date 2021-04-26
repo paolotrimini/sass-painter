@@ -40,9 +40,9 @@
           }
 
           .box-button {
+            margin-top: 20px;
 
             .btn-1 {
-              margin: 10px 0;
               padding: 8px 15px;
               color: $color-btn-1;
               background-color: $bg-btn-1;
@@ -50,7 +50,7 @@
             }
 
             .btn-2 {
-              margin: 10px 0;
+              margin-left: 15px;
               padding: 8px 15px;
               color: $color-btn-2;
               border: 1px solid black;
@@ -79,10 +79,6 @@
         margin: 30px 0;
         text-align: center;
 
-        .box-title-2 {
-
-        }
-
         .box-top-imgs {
           display: flex;
           justify-content: center;
@@ -92,6 +88,15 @@
             height:270px;
             margin: 15px 10px;
             background-color: red;
+
+            .box-img {
+
+              img {
+                max-width: 100%;
+              }
+            }
+
+
           }
 
           .box-2 {
@@ -99,6 +104,13 @@
             height:270px;
             margin: 15px 10px;
             background-color: green;
+
+            .box-img {
+
+              img {
+                max-width: 100%;
+              }
+            }
           }
 
           .box-3 {
@@ -106,6 +118,13 @@
             height:270px;
             margin: 15px 10px;
             background-color: blue;
+
+            .box-img {
+
+              img {
+                max-width: 100%;
+              }
+            }
           }
 
 
