@@ -72,5 +72,16 @@ body {
   max-width: 1170px;
   margin: 0 auto;
   /*debug*/
-  background-color: orange;
+  /* background-color: orange;*/
+}
+
+.jumbotron {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*
+  background-image: url(../dist/img/bg-painter-home.jpg);
+  */
+  /*debug*/
+  background-color: red;
 }
