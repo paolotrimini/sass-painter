@@ -1,0 +1,47 @@
+div#home header {
+  display: flex;
+  /*flex-direction: column;*/
+}
+div#home header .top-menu {
+  background-color: #101010;
+  font-size: 12px;
+}
+div#home header .top-menu ul {
+  display: flex;
+  justify-content: flex-end;
+}
+div#home header .top-menu ul li {
+  padding: 0 10px;
+}
+div#home header .top-menu ul li i {
+  padding: 0 10px;
+}
+div#home header .top-menu ul li a {
+  color: #4f555f;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /*debug*/
+  background-color: darkgoldenrod;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  /*debug*/
+  background-color: orange;
+}
