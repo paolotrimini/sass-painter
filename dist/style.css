@@ -1,6 +1,7 @@
 /* HEADER */
 /* TOP MENU */
 /* BOTTOM MENU */
+/* MAIN */
 div#home header {
   display: flex;
   flex-direction: column;
@@ -48,6 +49,56 @@ div#home header .bottom-menu ul li i {
 div#home header .bottom-menu ul li a {
   color: white;
 }
+div#home main {
+  /*debug*/
+  /*background-color: yellowgreen;*/
+}
+div#home main .jumbotron {
+  height: 300px;
+  padding: 30px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-image: url(../../dist/img/bg-painter-home.jpg);*/
+  /*debug*/
+  background-color: yellowgreen;
+}
+div#home main .jumbotron .text-box {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+div#home main .jumbotron .jumbo-img img {
+  width: 220px;
+}
+div#home main .jumbotron h3 {
+  font-size: 14px;
+  font-weight: 300;
+}
+div#home main .painting-container {
+  margin: 30px 0;
+  text-align: center;
+}
+div#home main .painting-container .box-top-imgs {
+  display: flex;
+  justify-content: center;
+}
+div#home main .painting-container .box-top-imgs .box-1 {
+  width: 250px;
+  height: 270px;
+  margin: 15px 10px;
+  background-color: red;
+}
+div#home main .painting-container .box-top-imgs .box-2 {
+  width: 250px;
+  height: 270px;
+  margin: 15px 10px;
+  background-color: green;
+}
+div#home main .painting-container .box-top-imgs .box-3 {
+  width: 250px;
+  height: 270px;
+  margin: 15px 10px;
+  background-color: blue;
+}
 * {
   margin: 0;
   padding: 0;
@@ -72,16 +123,5 @@ body {
   max-width: 1170px;
   margin: 0 auto;
   /*debug*/
-  /* background-color: orange;*/
-}
-
-.jumbotron {
-  height: 300px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /*
-  background-image: url(../dist/img/bg-painter-home.jpg);
-  */
-  /*debug*/
-  background-color: red;
+  background-color: orange;
 }
